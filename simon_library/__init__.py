@@ -1,6 +1,5 @@
-from .clean_data import clean_data
-from .create_features import create_features
-from .get_data import get_data
-from .get_roc_auc import get_roc_auc
-from .split_data import split_data
-from .train_model import train_model
+
+from .class_feature_processing import OneHotEncode, GenderToBinary
+from .class_get_data import GetAndSplitData
+from .class_prerpocess_data import PreprocessData
+from .class_train_model import Model

@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="simon_library",
-    version="0.4.0",
+    version="0.7.0",
     packages=find_packages(),
     install_requires=[],
     author="Simon",
